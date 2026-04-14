@@ -3,13 +3,13 @@ class Cola {
         this.items = [];
     }
 
-    // agregar (enqueue)
+    // agregar 
     enqueue(elemento) {
         this.items.push(elemento);
         console.log("Elemento agregado:", elemento);
     }
 
-    // eliminar (dequeue)
+    // eliminar 
     dequeue() {
         if (this.isEmpty()) {
             console.log("La cola está vacía");
@@ -29,7 +29,7 @@ class Cola {
     }
 }
 
-// EJEMPLO con números
+// EJEMPLO 
 const cola = new Cola();
 
 cola.enqueue(10);
